@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Login from './views/Login.vue'
+import Register from './views/Register.vue'
 
 Vue.use(Router)
  // import Index from './components/Index.vue'
@@ -13,12 +14,17 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-     component: () => import(/* webpackChunkName: "about" */ './views/Home.vue')
+     component: () => import('./views/Home.vue')
     },
     {
       path: '/login',
       name: 'login',
-      component: () => import(/* webpackChunkName: "about" */ './views/Login.vue')
+      component: () => import('./views/Login.vue')
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: () => import('./views/Register.vue')
     }
   ]
 })

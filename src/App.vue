@@ -13,13 +13,12 @@
     components :{
         Navbar,
         Footer
-
-
     }
   }
 </script>
 
 <style lang="scss" scoped>
 @import './assets/css/main.css';
+
 
 </style>

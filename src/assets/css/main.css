@@ -54893,3 +54893,22 @@ video {
     z-index: auto;
   }
 }
+
+/*my style*/
+#menu-toggle:checked + #menu{
+  display: block;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  height: 100vh
+}
+
+.wrapper{
+  flex-grow: 1;
+}
