@@ -16,6 +16,44 @@
           </section>
         </section>
       </section>
+
+
+<section class="">
+
+        <h3 class="text-center w-full text-3xl">More Books</h3>
+      <section class="md:flex mx-auto p-4">
+        <section class="md:flex flex-wrap mx-1">
+          <section class="border border-gray-400">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full   " alt="">
+            <section class="p-2">
+              <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
+              <section class="font-semibold text-gray-600">My favorite Author</section>
+            </section>
+          </section>
+        </section>
+        <!--  -->
+        <section class="md:flex flex-wrap mx-1">
+          <section class="border border-gray-400">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full    " alt="">
+            <section class="p-2">
+              <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
+              <section class="font-semibold text-gray-600">My favorite Author</section>
+            </section>
+          </section>
+        </section>
+        <!--  -->
+        <section class="md:flex flex-wrap mx-1">
+          <section class="border border-gray-400">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full  " alt="">
+            <section class="p-2">
+              <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
+              <section class="font-semibold text-gray-600">My favorite Author</section>
+            </section>
+          </section>
+        </section>
+      </section>
+</section>
+
     </section>
 
   </div>
