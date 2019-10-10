@@ -23,6 +23,10 @@ html, body {
   height: 100%;
 }
 
+#menu-toggle:checked + #menu{
+  display: block;
+}
+
 #app {
   display: flex;
   flex-direction: column;
