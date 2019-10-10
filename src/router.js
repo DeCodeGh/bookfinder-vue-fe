@@ -25,6 +25,11 @@ export default new Router({
       path: '/register',
       name: 'register',
       component: () => import('./views/Register.vue')
+    },
+    {
+      path: '/book',
+      name: 'book',
+      component: () => import('./views/Book.vue')
     }
   ]
 })
