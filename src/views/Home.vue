@@ -1,12 +1,12 @@
 <template>
 
   <div class="home wrapper">
-      <section class="flex xs-flex-wrap p-4">
+      <section class="sm:flex xs:flex-wrap p-4">
         <!-- sidebar -->
         <section class="w-1/4 p-4">
-          <section class="mb-4">
+          <section class="mb-4 w-full block">
           <h3 class="text-indigo-700 text-2xl font-bold ">Categories</h3>
-          <ul class="list-disc px-8">
+          <ul class="list-disc inline-block px-8 w-100">
               <li>Teen & Young</li>
               <li>Biographies & Memoirs</li>
               <li>Business & Money</li>

@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <Navbar />
-    <Footer />
+  <section class="wrapper">
+    <navbar></navbar>
+  </section>
+
+   <Footer></Footer>
   </div>
 </template>
 
