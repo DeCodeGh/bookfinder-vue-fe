@@ -19,6 +19,24 @@
 
 <style lang="scss" scoped>
 @import './assets/css/main.css';
+html, body {
+  height: 100%;
+}
 
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  height: 100vh
+}
+
+.wrapper{
+  flex-grow: 1;
+}
 
 </style>
