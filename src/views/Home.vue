@@ -3,12 +3,12 @@
   <div class="home">
       <section class="sm:flex xs:flex-wrap p-4">
         <!-- sidebar -->
-        <section class="w-1/4  p-4">
-          <section class="mb-4 w-full block ">
+        <section class="w-1/4  p-4 ">
+          <section class="mb-4  w-full">
           <h3 class="text-indigo-700 text-2xl font-bold ">Categories</h3>
-          <ul class="list-disc inline-block px-8 w-100 xs:hidden">
-              <li>Teen & Young</li>
-              <li>Biographies & Memoirs</li>
+          <ul class="hidden md:block list-disc px-8 w-100 ">
+              <li class="">Teen & Young</li>
+              <li>C</li>
               <li>Business & Money</li>
               <li>Teen & Young</li>
               <li>Teen & Young</li>
@@ -16,10 +16,18 @@
               <li>Business & Money</li>
               <li>Teen & Young</li>
           </ul>
+
+          <select name="" id="" class="md:hidden  w-100">
+            <option value=" " class="" selected> Lorem ipsum.</option>
+            <option value=" ">2</option>
+            <option value=" ">3</option>
+            <option value=" ">4</option>
+            <option value=" ">5</option>
+          </select>
           </section>
-          <section class="mb-4 ">
+          <section class="mb-4 w-full">
             <h3 class="text-indigo-700 text-2xl font-bold ">Authors</h3>
-          <ul class="list-disc px-8">
+          <ul class="hidden md:block list-disc px-8">
               <li>Teen  Young</li>
               <li>Biographies  Memoirs</li>
               <li>Business  Money</li>
@@ -29,12 +37,20 @@
               <li>Business  Money</li>
               <li>Teen  Young</li>
           </ul>
+
+          <select name="" id="" class="md:hidden w-100">
+            <option value=" " selected> Lorem ipsum.</option>
+            <option value=" ">2</option>
+            <option value=" ">3</option>
+            <option value=" ">4</option>
+            <option value=" ">5</option>
+          </select>
 
           </section>
         </section>
         <!-- /sidebar -->
 
-        <section class="w-3/4  flex flex-wrap mx-2 mb-8">
+        <section class="md:w-3/4 w-full    flex flex-wrap mx-2 mb-8">
           <section class="w-full flex mb-4 -mx-2">
             <form action="" class="flex flex-wrap px-2 w-full">
               <input type="text" class="w-3/4 border appearance-none py-3 px-4 leading-light focus:outline-none focus:bg-white rounded p-2 border-gray-500 bg-gray-200" placeholder="Search for books" name="" id="">
