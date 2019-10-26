@@ -32,6 +32,11 @@ export default new Router({
       component: () => import('./views/Book.vue')
     },
     {
+      path: '/books',
+      name: 'books',
+      component: ()=>import('./views/Books')
+    },
+    {
       path: '/profile',
       name: 'profile',
       component: ()=>import('./views/Profile.vue')
