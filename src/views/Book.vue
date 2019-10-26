@@ -17,13 +17,23 @@
         </section>
       </section>
 
+<section class="bg-white p-4">
+    <nav class="flex flex-col sm:flex-row">
+        <button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-blue-500">
+            Notes
+        </button><button class="text-gray-600 py-4 px-6 block hover:text-blue-500 focus:outline-none">
+            Details
+        </button>
+    </nav>
+</section>
 
-<section class="">
 
-        <h3 class="text-center w-full text-3xl">More Books</h3>
-      <section class="md:flex mx-auto p-4">
-        <section class="md:flex flex-wrap mx-1">
-          <section class="border border-gray-400">
+<section class=" md:w-full w-full p-4">
+        <h3 class="mr-3 w-full block text-xl">More Books</h3>
+        <hr class="mb-4">
+      <section class="md:flex mx-auto p-2">
+        <section class="md:flex flex-wrap  px-1 ">
+          <section class="border border-gray-400 rounded">
             <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full   " alt="">
             <section class="p-2">
               <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
@@ -32,9 +42,9 @@
           </section>
         </section>
         <!--  -->
-        <section class="md:flex flex-wrap mx-1">
-          <section class="border border-gray-400">
-            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full    " alt="">
+        <section class="md:flex flex-wrap px-1">
+          <section class="border border-gray-400 rounded ">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full   " alt="">
             <section class="p-2">
               <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
               <section class="font-semibold text-gray-600">My favorite Author</section>
@@ -42,9 +52,9 @@
           </section>
         </section>
         <!--  -->
-        <section class="md:flex flex-wrap mx-1">
-          <section class="border border-gray-400">
-            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full  " alt="">
+        <section class="md:flex flex-wrap px-1">
+          <section class="border border-gray-400 rounded">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="object-cover h-48 w-full " alt="">
             <section class="p-2">
               <section class="font-bold"><router-link to="/book">Book 2</router-link></section>
               <section class="font-semibold text-gray-600">My favorite Author</section>

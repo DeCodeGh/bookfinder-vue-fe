@@ -1,34 +1,48 @@
 <template>
   <div class="profile p-4">
-    <section class="mx-auto flex w-full mb-4">
-      <ul class="flex  w-full justify-center">
-          <li  class="px-1"> Profile </li>
-          <li class="px-1"> Preferences </li>
-           <li class="px-1"> Social</li>
-           <li class="px-1">Books</li>
-      </ul>
+    <section class="flex justify-center  mb-4">
+      <section class="flex  flex-wrap w-full max-w-lg  bg-gray-200 border">
+          <ul class="w-full flex justify-center px-2 py-2 bg-gray-400 rounded border-gray-200">
+              <li  class="px-1"> Profile </li>
+              <li class="px-1"> Preferences </li>
+               <li class="px-1"> Social</li>
+               <li class="px-1">Books</li>
+          </ul>
+      </section>
     </section>
+
 
     <section class="flex  justify-center">
           <form action="" class="w-full max-w-lg  flex flex-wrap p-4 border border-gray-400">
+            <section class="w-full flex flex-wrap mb-24">
+               <section class="md:w-1/2  ">
+                <section class="text-center">
+                   <img src="https://i.imgur.com/8Km9tLL.jpg" class="rounded-full border-solid border-white justify-center h-24 border-2 -mt-3 text-center" alt="">
+                </section>
+               </section>
+               <section class="md:w-1/2">
+                <label for="  " class="block mb-1 font-semibold+">Upload Profile Picture</label>
+                <input type="file" name="" id="" class="block w-full appearance-none">
+               </section>
+            </section>
             <section class="w-full md:w-1/2 px-3  mb-6 md:mb-6">
                 <label for="" class="block mb-1 font-semibold">Display name</label>
-                <input type="text" name="" class="block appearance-none border rounded border-indigo-700 p-2" id="" placeholder="display name">
+                <input type="text" name="" class="block w-full appearance-none border rounded border-indigo-700 p-2" id="" placeholder="display name">
             </section>
 
             <section class="w-full md:w-1/2  px-3  mb-6 md:mb-6">
                 <label for=" " class="block font-semibold mb-1">Location</label>
-                <input type="text" name=" " placeholder="e.g accra" class="border p-2 rounded border-indigo-700" id="">
+                <input type="text" name=" " placeholder="e.g accra" class="border p-2 rounded border-indigo-700 w-full" id="">
             </section>
 
             <section class="w-full md:w-1/2 px-3  mb-6 md:mb-6">
                 <label for="" class="block mb-1 font-semibold">Username</label>
-                <input type="text" name="" class="block appearance-none border rounded border-indigo-700 p-2" id="" placeholder="username">
+                <input type="text" name="" class="block appearance-none border rounded border-indigo-700 p-2 w-full" id="" placeholder="username">
             </section>
 
             <section class="w-full md:w-1/2  px-3  mb-6 md:mb-6">
                 <label for=" " class="block font-semibold mb-1">Email Address</label>
-                <input type="text" name=" "  class="border p-2 rounded border-indigo-700" placeholder="email@example.com" id="">
+                <input type="text" name=" "  class="border p-2 rounded border-indigo-700 w-full" placeholder="email@example.com" id="">
             </section>
 
             <section class="w-full px-3">
